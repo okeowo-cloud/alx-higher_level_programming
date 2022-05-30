@@ -18,3 +18,5 @@ Description:
 
 8-concat_edges.py: Python script prints object-oriented programming with Python, followed by a new line.
 
+9-easter_egg.py: Python script prints “The Zen of Python”, by TimPeters, followed by a new line.
+
