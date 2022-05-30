@@ -20,3 +20,5 @@ Description:
 
 9-easter_egg.py: Python script prints “The Zen of Python”, by TimPeters, followed by a new line.
 
+10-check_cycle.c: C file checks if a singly linked list has a cycle in it
+
