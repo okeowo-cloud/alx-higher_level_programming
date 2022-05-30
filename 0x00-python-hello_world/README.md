@@ -12,3 +12,4 @@ Description:
 
 5-print_string.py: Python script print 3 times a string stored in the variable str, followed by its first 9 characters.
 
+6-concat.py: Python script print Welcome to Holberton School!
