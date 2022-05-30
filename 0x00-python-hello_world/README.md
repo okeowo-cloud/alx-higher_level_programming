@@ -16,3 +16,5 @@ Description:
 
 7-edges.py: Python script print first 3 letters of the variable word, last 2 letters of the variable word and word without the first and last letters.
 
+8-concat_edges.py: Python script prints object-oriented programming with Python, followed by a new line.
+
