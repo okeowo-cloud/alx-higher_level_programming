@@ -8,5 +8,7 @@ Description:
 
 3-print_number.py: Python script prints exactly "98 Battery street"
 
-4-print_float.py: Python scripts print the float stored in the variable number with a precision of 2 digits.
+4-print_float.py: Python script print the float stored in the variable number with a precision of 2 digits.
+
+5-print_string.py: Python script print 3 times a string stored in the variable str, followed by its first 9 characters.
 
