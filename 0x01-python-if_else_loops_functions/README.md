@@ -12,3 +12,5 @@ Description:
 
 5-print_comb2.py: program prints numbers from 0 to 99 separated by comma.
 
+6-print_comb3.py: program prints all possible different combinations of two digits.
+
