@@ -16,3 +16,5 @@ Description:
 
 7-islower.py: program checks for lowercase character.
 
+8-uppercase.py: program prints a string in uppercase followed by a new line.
+
