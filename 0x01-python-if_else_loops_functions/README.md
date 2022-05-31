@@ -20,3 +20,7 @@ Description:
 
 9-print_last_digit.py: program prints the last digit of a number and return it.
 
+10-add.py: program adds two integers and returns the result.
+
+11-pow.py: program computes a to the power of b and return the value.
+
