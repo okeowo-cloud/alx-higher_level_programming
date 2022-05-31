@@ -8,3 +8,5 @@ Description:
 
 3-print_alphabt.py: program prints the ASCII alphabet except 'q' and 'e', in lowercase, not followed by a new line.
 
+4-print_hexa.py: program prints numbers from 0 to 99 in decimal and hexadecimal
+
