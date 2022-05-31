@@ -18,3 +18,5 @@ Description:
 
 8-uppercase.py: program prints a string in uppercase followed by a new line.
 
+9-print_last_digit.py: program prints the last digit of a number and return it.
+
