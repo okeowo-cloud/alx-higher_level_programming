@@ -10,7 +10,7 @@ Description:
 
 4-print_hexa.py: program prints numbers from 0 to 98 in decimal and hexadecimal in  a specified format
 
-5-print_comb2.py: program prints numbers from 0 to 99 separated by comma.
+5-print_comb2.py: program prints numbers from 0 to 99 separated by comma.0
 
 6-print_comb3.py: program prints all possible different combinations of two digits.
 
@@ -23,4 +23,6 @@ Description:
 10-add.py: program adds two integers and returns the result.
 
 11-pow.py: program computes a to the power of b and return the value.
+
+12-fizzbuzz.py: program prints the numbers from 1 to 100 separated by a space. For multiples of three print Fizz instead of the number and for multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
 
