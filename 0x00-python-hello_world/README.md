@@ -24,5 +24,7 @@ Description:
 
 100-write.py: Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
 
-101-compile: Write a script that compiles a Python script file.
+101-compile: shell script that compiles a Python script file.
+
+102-magic_calculation.py: Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode
 
