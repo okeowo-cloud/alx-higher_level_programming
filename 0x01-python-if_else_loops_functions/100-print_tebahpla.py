@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-x = 0
 for i in range(ord("z"), ord("a") - 1, -1):
-    print("{}".format(chr(i - x)), end="")
-    x = 32 if x == 0 else 0
+    if i % 2 == 1:
+        i -= 32
+    print("{}".format(chr(i)), end="")
