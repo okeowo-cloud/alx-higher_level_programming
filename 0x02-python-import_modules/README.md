@@ -12,3 +12,6 @@ add.py: program imports the function def add(a, b): from the file add_0.py and p
 
 5-variable_load.py: program imports the variable a from the file variable_load_5.py and prints its value.
 
+100-my_calculator.py: program imports all functions from the file calculator_1.py and handles basic operations.
+
+
