@@ -18,3 +18,5 @@ add.py: program imports the function def add(a, b): from the file add_0.py and p
 
 102-magic_calculation.py: program does exactly the same as a given bytecode.
 
+103-fast_alphabet.py: program prints the alphabet in uppercase, followed by a new line.
+
