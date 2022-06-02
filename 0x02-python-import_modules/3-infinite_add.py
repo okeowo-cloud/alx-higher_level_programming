@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if __name__  == "__main__":
+if __name__ == "__main__":
     import sys
     args = sys.argv
     argc = len(args) - 1
@@ -8,5 +8,5 @@ if __name__  == "__main__":
         print(total)
     else:
         for i in range(0, argc):
-            total += int(args[i + 1])
+            total = total + int(args[i + 1])
         print(total)
