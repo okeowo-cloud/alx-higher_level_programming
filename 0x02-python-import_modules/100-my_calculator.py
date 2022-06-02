@@ -7,8 +7,8 @@ if __name__ == "__main__":
     if argc != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
-    a = int(args[1]);
-    b = int(args[3]);
+    a = int(args[1])
+    b = int(args[3])
     operator = args[2]
     result = 0
     ops = ["+", "-", "*", "/"]
@@ -17,7 +17,7 @@ if __name__ == "__main__":
         sys.exit(1)
     else:
         if operator == "+":
-           result = add(a, b)
+            result = add(a, b)
         elif operator == "-":
             result = sub(a, b)
         elif operator == "*":
@@ -26,4 +26,3 @@ if __name__ == "__main__":
             result = div(a, b)
 
         print("{} {} {} = {}".format(a, operator, b, result))
-
