@@ -14,4 +14,5 @@ add.py: program imports the function def add(a, b): from the file add_0.py and p
 
 100-my_calculator.py: program imports all functions from the file calculator_1.py and handles basic operations.
 
+101-easy_print.py: program  prints #pythoniscool, followed by a new line, in the standard output.
 
