@@ -16,3 +16,5 @@ add.py: program imports the function def add(a, b): from the file add_0.py and p
 
 101-easy_print.py: program  prints #pythoniscool, followed by a new line, in the standard output.
 
+102-magic_calculation.py: program does exactly the same as a given bytecode.
+
