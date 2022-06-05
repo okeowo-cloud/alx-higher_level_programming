@@ -10,3 +10,5 @@ Description:
 
 4-new_in_list.py: Program replaces an element in a list at a specific position without modifying the original list (like in C).
 
+5-no_c.py: Program removes all characters c and C from a string.
+
