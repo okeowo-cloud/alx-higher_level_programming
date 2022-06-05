@@ -15,3 +15,6 @@ Description:
 6-print_matrix_integer.py: Program prints a matrix of integers.
 
 7-add_tuple.py: Program adds 2 tuples.
+
+8-multiple_returns.py: program returns a tuple with the length of a string and its first character.
+
