@@ -14,3 +14,4 @@ Description:
 
 6-print_matrix_integer.py: Program prints a matrix of integers.
 
+7-add_tuple.py: Program adds 2 tuples.
