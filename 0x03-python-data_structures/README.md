@@ -8,3 +8,5 @@ Description:
 
 3-print_reversed_list_integer.py: Program prints all integers of a list, in reverse order.
 
+4-new_in_list.py: Program replaces an element in a list at a specific position without modifying the original list (like in C).
+
