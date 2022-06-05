@@ -12,3 +12,5 @@ Description:
 
 5-no_c.py: Program removes all characters c and C from a string.
 
+6-print_matrix_integer.py: Program prints a matrix of integers.
+
