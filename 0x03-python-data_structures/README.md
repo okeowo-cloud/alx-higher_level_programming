@@ -6,3 +6,5 @@ Description:
 
 2-replace_in_list.py: Program replaces an element of a list at a specific position (like in C).
 
+3-print_reversed_list_integer.py: Program prints all integers of a list, in reverse order.
+
