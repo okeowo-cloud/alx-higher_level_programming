@@ -21,31 +21,6 @@ int get_length(listint_t *head)
 	return (i);
 }
 
-
-/**
- * get_at_index - function get the element of a linkedlist
- * at given index
- * @head: is a pointer to head of linkedlist
- * @n: is the index
- * Return: is an int data in linkedlist
- */
-int get_at_index(listint_t *head, int n)
-{
-	int i;
-
-	listint_t *current = head;
-
-	i = 0;
-	while (1)
-	{
-		if (i == n)
-			return (current->n);
-		current = current->next;
-		i++;
-	}
-	return (-1);
-}
-
 /**
  * is_palindrome - function checks if a singly linked list is a palindrome.
  * @head: pointer to base of a linkedlist
@@ -53,18 +28,31 @@ int get_at_index(listint_t *head, int n)
  */
 int is_palindrome(listint_t **head)
 {
-	int i, j;
+	int i, j, *arr;
+
+	listint_t *current = *head;
 
 	if (head == NULL || *head == NULL)
 		return (1);
 	i = 0;
-	j = get_length(*head) - 1;
-	while (i < j)
+	arr = malloc(sizeof(int) * get_length(*head));
+	if (!arr)
+		return (0);
+	while (current)
 	{
-		if (get_at_index(*head, i) != get_at_index(*head, j))
-			return (0);
+		arr[i] = current->n;
+		current = current->next;
 		i++;
-		j--;
 	}
+	j = 0;
+	i--;
+	while (j < i)
+	{
+		if (arr[j] != arr[i])
+			return (0);
+		i--;
+		j++;
+	}
+	free(arr);
 	return (1);
 }
