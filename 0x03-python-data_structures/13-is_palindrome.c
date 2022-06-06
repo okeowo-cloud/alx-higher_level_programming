@@ -31,17 +31,17 @@ int get_length(listint_t *head)
  */
 int get_at_index(listint_t *head, int n)
 {
-	int i, j;
+	int i;
 
 	listint_t *current = head;
 
-	j = get_length(head);
-
-	for (i = 0; i < j; i++)
+	i = 0;
+	while (1)
 	{
 		if (i == n)
 			return (current->n);
 		current = current->next;
+		i++;
 	}
 	return (-1);
 }
