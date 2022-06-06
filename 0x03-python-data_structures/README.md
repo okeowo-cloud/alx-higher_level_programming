@@ -26,3 +26,5 @@ Description:
 
 12-switch.py: Program switch the value of a and b
 
+13-is_palindrome.c: Program checks if a singly linked list is a palindrome.
+
