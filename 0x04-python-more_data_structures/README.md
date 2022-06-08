@@ -18,3 +18,5 @@
 
 8-simple_delete.py: Program deletes a key in a dictionary.
 
+9-multiply_by_2.py: Program returns a new dictionary with all values multiplied by 2
+
