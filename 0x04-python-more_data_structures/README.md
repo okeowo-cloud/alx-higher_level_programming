@@ -4,3 +4,5 @@
 
 1-search_replace: Program replaces all occurrences of an element by another in a new list.
 
+2-uniq_add.py: Program adds all unique integers in a list (only once for each integer).
+
