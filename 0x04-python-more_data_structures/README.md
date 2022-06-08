@@ -32,3 +32,5 @@
 
 102-complex_delete.py: Program deletes keys with a specific value in a dictionary.
 
+103-python.c: Program print some basic info about Python lists and Python bytes objects.
+
