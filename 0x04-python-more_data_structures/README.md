@@ -12,3 +12,5 @@
 
 5-number_keys.py: Program returns the number of keys in a dictionary.
 
+6-print_sorted_dictionary.py: Program prints a dictionary by ordered keys.
+
