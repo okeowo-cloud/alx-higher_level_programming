@@ -18,5 +18,7 @@
 
 8-simple_delete.py: Program deletes a key in a dictionary.
 
-9-multiply_by_2.py: Program returns a new dictionary with all values multiplied by 2
+9-multiply_by_2.py: Program returns a new dictionary with all values multiplied by 2.
+
+10-best_score.py: Program returns a key with the biggest integer value.
 
