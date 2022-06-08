@@ -28,3 +28,5 @@
 
 100-weight_average.py: Program returns the weighted average of all integers tuple (<score>, <weight>)
 
+101-square_matrix_map.py: Program computes the square value of all integers of a matrix using map
+
