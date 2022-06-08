@@ -26,3 +26,5 @@
 
 12-roman_to_int.py: Program converts a Roman numeral to an integer.
 
+100-weight_average.py: Program returns the weighted average of all integers tuple (<score>, <weight>)
+
