@@ -16,3 +16,5 @@
 
 7-update_dictionary.py: Program replaces or adds key/value in a dictionary.
 
+8-simple_delete.py: Program deletes a key in a dictionary.
+
