@@ -20,3 +20,5 @@ Description:
 
 102-magic_calculation.py: Program does exactly the same as the following Python bytecode
 
+103-python.c: Program print some basic info about Python lists, Python bytes an Python float objects.
+
