@@ -16,3 +16,7 @@ Description:
 
 100-safe_print_integer_err.py: Program prints an integer.
 
+101-safe_function.py: Program executes a function safely.
+
+102-magic_calculation.py: Program does exactly the same as the following Python bytecode
+
