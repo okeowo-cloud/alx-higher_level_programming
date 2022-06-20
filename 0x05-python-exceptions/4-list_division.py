@@ -2,7 +2,7 @@
 def list_division(my_list_1, my_list_2, list_length):
     a_list = []
     result = 0
-    for i in range(len(my_list_2)):
+    for i in range(0, list_length):
         try:
             result = my_list_1[i] / my_list_2[i]
         except TypeError:
@@ -16,4 +16,4 @@ def list_division(my_list_1, my_list_2, list_length):
             result = 0
         finally:
             a_list.append(result)
-        return a_list
+    return a_list
