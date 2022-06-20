@@ -11,3 +11,6 @@ Description:
 4-list_division.py: Program divides element by element 2 lists.
 
 5-raise_exception.py: Program raises a type error
+
+6-raise_exception_msg.py: Program raises a name exception with a message.
+
