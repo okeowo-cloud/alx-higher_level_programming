@@ -10,3 +10,4 @@ Description:
 
 4-list_division.py: Program divides element by element 2 lists.
 
+5-raise_exception.py: Program raises a type error
