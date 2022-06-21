@@ -6,3 +6,5 @@ Description:
 
 2-square.py: defines a square by: (based on 1-square.py) raises TypeError and ValueError for size
 
+3-square.py:  defines a square by: (based on 2-square.py) also defines a function area.
+
