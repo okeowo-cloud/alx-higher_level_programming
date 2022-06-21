@@ -8,3 +8,5 @@ Description:
 
 3-square.py:  defines a square by: (based on 2-square.py) also defines a function area.
 
+4-square.py: defines a square by: (based on 3-square.py) also include getters and setters
+
