@@ -10,8 +10,8 @@ class Node:
         :param data: is an integer to store in node
         :param next_node: the next node
         """
-        self.__data = data
-        self.__next_node = next_node
+        self.data = data
+        self.next_node = next_node
 
     @property
     def next_node(self):
@@ -62,7 +62,7 @@ class SinglyLinkedList:
     def __init__(self):
 
         """Initializes a SinglyLinkedList"""
-        self.__head = None
+        self.head = None
 
     def sorted_insert(self, value):
         """
