@@ -16,3 +16,5 @@ Description:
 
 7-rectangle.py: Rectangle based on 6-rectangle.py and includes a public class variable print_symbol
 
+8-rectangle.py: Rectangle based on 7-rectangle.py and includes a static method to compare two rectangles
+
