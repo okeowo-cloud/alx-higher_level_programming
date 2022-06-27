@@ -10,5 +10,7 @@ Description:
 
 4-rectangle.py: Rectangle based on 3-rectangle.py and includes __repr__method for string representation of rectangle
 
-5-rectangle.py: Rectangke based on 4-rectangle.py and includes __del__ method to print custom message when rectangle is deleted
+5-rectangle.py: Rectangle based on 4-rectangle.py and includes __del__ method to print custom message when rectangle is deleted
+
+6-rectangle.py: Rectangle based on 5-rectangle.py and includes a public class variable number_of_instances
 
