@@ -62,30 +62,6 @@ class Rectangle:
             raise ValueError("height must be >= 0")
         self.__height = value
 
-    def __str__(self):
-        """Defines the string representation of a rectangle"""
-        if self.__width == 0 or self.__height == 0:
-            return ""
-        rect = []
-        for i in range(self.__height):
-            [rect.append(str(self.print_symbol)) for j in range(self.__width)]
-            if i != self.__height - 1:
-                rect.append("\n")
-        return "".join(rect)
-
-    def __repr__(self):
-        """Defines the representation for rectangle instantiation"""
-        return "Rectangle({}, {})".format(self.__width, self.__height)
-
-    def __del__(self):
-        """Prints a custom message when a rectangle object is deleted
-        decrements the number of instances of rectangle
-        """
-        if Rectangle.number_of_instances == 0:
-            return
-        Rectangle.number_of_instances -= 1
-        print("Bye rectangle...")
-
     def area(self):
         """returns the area of the rectangle defined by the width * height"""
         return self.__width * self.__height
@@ -112,7 +88,9 @@ class Rectangle:
             raise TypeError("rect_1 must be an instance of Rectangle")
         if not isinstance(rect_2, Rectangle):
             raise TypeError("rect_2 must be an instance of Rectangle")
-        if rect_1.area() >= rect_2.area():
+        if rect_1.area() == rect_2.area():
+            return rect_1
+        if rect_1.area() > rect_2.area():
             return rect_1
         else:
             return rect_2
@@ -124,5 +102,28 @@ class Rectangle:
         :param size: is the new size of rectangle to make square
         :return: a new rectangle instance
         """
+        return cls(size, size)
 
-        return (cls(size, size))
+    def __str__(self):
+        """Defines the string representation of a rectangle"""
+        if self.__width == 0 or self.__height == 0:
+            return ""
+        rect = []
+        for i in range(self.__height):
+            [rect.append(str(self.print_symbol)) for j in range(self.__width)]
+            if i != self.__height - 1:
+                rect.append("\n")
+        return "".join(rect)
+
+    def __repr__(self):
+        """Defines the representation for rectangle instantiation"""
+        return "Rectangle({}, {})".format(self.__width, self.__height)
+
+    def __del__(self):
+        """Prints a custom message when a rectangle object is deleted
+        decrements the number of instances of rectangle
+        """
+        if Rectangle.number_of_instances == 0:
+            return
+        Rectangle.number_of_instances -= 1
+        print("Bye rectangle...")
