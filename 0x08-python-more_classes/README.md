@@ -18,3 +18,4 @@ Description:
 
 8-rectangle.py: Rectangle based on 7-rectangle.py and includes a static method to compare two rectangles
 
+9-rectangle.py: Rectangle based on 8-rectangle.py and includes a class method to create a square
