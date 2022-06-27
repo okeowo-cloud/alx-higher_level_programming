@@ -8,3 +8,5 @@ Description:
 
 3-rectangle.py: Rectangle based on 2-rectangle.py and includes __str__ method for string representation of rectangle
 
+4-rectangle.py: Rectangle based on 3-rectangle.py and includes __repr__method for string representation of rectangle
+
