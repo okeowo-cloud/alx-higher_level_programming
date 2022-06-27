@@ -14,3 +14,5 @@ Description:
 
 6-rectangle.py: Rectangle based on 5-rectangle.py and includes a public class variable number_of_instances
 
+7-rectangle.py: Rectangle based on 6-rectangle.py and includes a public class variable print_symbol
+
