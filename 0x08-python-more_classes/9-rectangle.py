@@ -126,8 +126,5 @@ class Rectangle:
         :param size: is the new size of rectangle to make square
         :return: a new rectangle instance
         """
-        if not isinstance(size, int):
-            raise TypeError("size must be an integer")
-        if size < 0:
-            raise TypeError("size must be >= 0")
+
         return cls(size, size)
