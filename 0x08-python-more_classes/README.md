@@ -4,4 +4,7 @@ Description:
 
 1-rectangle.py: Program defines a rectangle with width and height
 
-2-rectangle.py: Program defines a rectangle based on 1-rectangle.py and includesmethod to retrieve its area and perimeter
+2-rectangle.py: Program defines a rectangle based on 1-rectangle.py and includes method to retrieve its area and perimeter
+
+3-rectangle.py: Rectangle based on 2-rectangle.py and includes __str__ method for string representation of rectangle
+
