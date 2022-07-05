@@ -15,9 +15,9 @@ class Student:
         self.last_name = last_name
         self.age = age
 
-        def to_json(self):
-            """
-            defines the dictionary description of an instantiated student
-            :return: dict description of student
-            """
-            return self.__dict__
+    def to_json(self):
+        """
+        defines the dictionary description of an instantiated student
+        :return: dict description of student
+        """
+        return self.__dict__
