@@ -14,3 +14,5 @@ Description:
 
 6-load_from_json_file.py: Program creates an Object from a "JSON file"
 
+7-add_item.py: Program adds all arguments to a Python list, and then save them to a file
+
