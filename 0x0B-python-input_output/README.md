@@ -6,3 +6,5 @@ Description:
 
 2-append_write.py: Program appends a string at the end of a text file (UTF8) and returns the number of characters added
 
+3-to_json_string.py: Program returns JSON representation of an object (string)
+
