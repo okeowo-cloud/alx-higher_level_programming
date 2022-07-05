@@ -17,3 +17,6 @@ Description:
 7-add_item.py: Program adds all arguments to a Python list, and then save them to a file
 
 8-class_to_json.py: Program returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object
+
+9-student.py: Program defines a student and include a public method to get dictionary description of instantiated objects.
+
