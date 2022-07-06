@@ -4,7 +4,7 @@
 
 class MyInt(int):
     """Representation of an int"""
-    
+
     def __eq__(self, other):
         """
         Overides the equal method of python built-in int
