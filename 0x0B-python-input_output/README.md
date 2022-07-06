@@ -22,3 +22,5 @@ Description:
 
 10-student.py: Program defines a student based on 9-student.py and get dictionary description of attributes included in "attrs" list.
 
+11-student.py: Program defines a student based on 10-student.py and set attributes of student instance.
+
