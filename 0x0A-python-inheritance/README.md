@@ -16,3 +16,5 @@
 
 7-base_geometry.py: Program defines a BaseGeometry based on 6-base_geometry.py and includes a public method integer_validator()
 
+8-rectangle.py: Program creates a Rectangle that inherits from BaseGeometry
+
