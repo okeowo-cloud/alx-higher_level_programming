@@ -24,3 +24,5 @@ Description:
 
 11-student.py: Program defines a student based on 10-student.py and set attributes of student instance.
 
+12-pascal_triangle.py: Program returns a list of lists of integers representing the Pascal’s triangle of n
+
