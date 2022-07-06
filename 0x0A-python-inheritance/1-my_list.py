@@ -13,6 +13,4 @@ class MyList(list):
         print instances of myList in ascending order
         :return: void
         """
-        tmp = self.copy()
-        tmp.sort()
-        print(tmp)
+        print(sorted(self))
