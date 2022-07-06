@@ -25,3 +25,5 @@
 11-square.py: Program defines a Square based on 10-square and includes method to determine the area() and print()
 
 100-my_int.py: Program defines a user-defined int object
+
+101-add_attribute.py: Program add attributes to object is possible
