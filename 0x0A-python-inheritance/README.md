@@ -18,3 +18,5 @@
 
 8-rectangle.py: Program creates a Rectangle that inherits from BaseGeometry
 
+9-rectangle.py: Program defines a Rectangle based on 8-rectangle.py and includes method to determine area() and print()
+
