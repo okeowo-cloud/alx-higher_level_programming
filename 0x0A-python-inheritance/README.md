@@ -22,3 +22,4 @@
 
 10-square.py: Program defines a Square based on 9-rectangle.py
 
+11-square.py: Program defines a Square based on 10-square and includes method to determine the area() and print()
