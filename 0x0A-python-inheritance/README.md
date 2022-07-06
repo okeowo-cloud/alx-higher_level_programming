@@ -6,3 +6,5 @@
 
 2-is_same_class.py: Program determines if an object is exactly an instance of the specified class
 
+3-is_kind_of_class.py: Program determines if an object is an instance of or inherits from a specified class
+
