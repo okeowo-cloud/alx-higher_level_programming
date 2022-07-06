@@ -20,3 +20,5 @@
 
 9-rectangle.py: Program defines a Rectangle based on 8-rectangle.py and includes method to determine area() and print()
 
+10-square.py: Program defines a Square based on 9-rectangle.py
+
