@@ -20,3 +20,5 @@ Description:
 
 9-student.py: Program defines a student and include a public method to get dictionary description of instantiated objects.
 
+10-student.py: Program defines a student based on 9-student.py and get dictionary description of attributes included in "attrs" list.
+
