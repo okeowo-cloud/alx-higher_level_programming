@@ -61,3 +61,24 @@ Usage
     [-10, -7, -5, -3, -1]
     >>> print(myList)
     [-10, -1, -3, -7, -5]
+
+
+    case:
+    Sort empty list
+    >>> myList = MyList()
+    >>> myList.print_sorted()
+    []
+
+    case:
+    Sort list of strings
+    >>> my_list = MyList()
+    >>> my_list.append("Tunde")
+    >>> my_list.append("Samuel")
+    >>> my_list.append("School")
+    >>> my_list.append("Alx")
+    >>> my_list.append("Betty")
+    >>> print(my_list)
+    ['Tunde', 'Samuel', 'School', 'Alx', 'Betty']
+
+    >>> my_list.print_sorted()
+    ['Alx', 'Betty', 'Samuel', 'School', 'Tunde']
