@@ -1,0 +1,50 @@
+========================
+`7-base_geometry Module`
+========================
+
+`Usage`
+========
+
+    >>> BaseGeometry = __import__("7-base_geometry").BaseGeometry
+    >>> bg = BaseGeometry()
+
+    case:
+    >>> bg.integer_validator("my_int", 12)
+
+    case:
+    >>> bg.integer_validator("width", 0)
+    Traceback (most recent call last):
+    ValueError: width must be greater than 0
+
+    case:
+    >>> bg.integer_validator("name", -3)
+    Traceback (most recent call last):
+    ValueError: name must be greater than 0
+
+    case:
+    >>> bg.integer_validator("number", 44.5)
+    Traceback (most recent call last):
+    TypeError: number must be an integer
+
+    case:
+    >>> bg.integer_validator("string", "flex")
+    Traceback (most recent call last):
+    TypeError: string must be an integer
+
+    case:
+    >>> bg.integer_validator("mylist", [])
+    Traceback (most recent call last):
+    TypeError: mylist must be an integer
+
+    case:
+    >>> bg.integer_validator("sample_dict", {"score": 100})
+    Traceback (most recent call last):
+    TypeError: sample_dict must be an integer
+
+    case:
+    >>> bg.integer_validator("None", None)
+    Traceback (most recent call last):
+    TypeError: None must be an integer
+
+    case:
+    >>> bg.integer_validator("big", 1234234325467465446763243435412563554323136542125353242321353454337898574)

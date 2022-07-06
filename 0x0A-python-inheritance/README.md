@@ -14,3 +14,5 @@
 
 6-base_geometry.py: Program defines a BaseGeometry based on 5-base_geometry.py and includes a public method area() which raises exception
 
+7-base_geometry.py: Program defines a BaseGeometry based on 6-base_geometry.py and includes a public method integer_validator()
+
