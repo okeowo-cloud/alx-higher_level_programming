@@ -28,3 +28,4 @@ Description:
 
 100-append_after.py: Program inserts a line of text to a file, after each line containing a specific string
 
+101-stats.py: Program reads stdin line by line and computes metrics
