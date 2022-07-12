@@ -33,7 +33,7 @@ class Base:
             Otherwise - String representation of list of dicts.
         """
         if list_dictionaries is None or list_dictionaries == []:
-            return json.dumps([])
+            return "[]"
         return json.dumps(list_dictionaries)
 
     @classmethod
