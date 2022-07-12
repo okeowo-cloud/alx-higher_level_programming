@@ -32,7 +32,7 @@ class Base:
             If list_dictionaries is None or empty - an empty list
             Otherwise - String representation of list of dicts.
         """
-        if list_dictionaries is None or len(list_dictionaries) == 0:
+        if list_dictionaries is None or list_dictionaries == []:
             return "[]"
         return json.dumps(list_dictionaries)
 
