@@ -70,12 +70,13 @@ class Base:
 
         :param dictionary(dict): Key/value pairs of attributes to initialize.
         """
-        if cls.__name__ == "Rectangle":
-            instance = cls(10, 5)
-        else:
-            instance = cls(10, 5)
-        instance.update(**dictionary)
-        return instance
+        if dictionary and dictionary != {}:
+            if cls.__name__ == "Rectangle":
+                instance = cls(10, 5)
+            else:
+                instance = cls(10)
+            instance.update(**dictionary)
+            return instance
 
     @classmethod
     def load_from_file(cls):
