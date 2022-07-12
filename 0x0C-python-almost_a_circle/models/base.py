@@ -5,7 +5,6 @@ import csv
 import turtle
 
 
-
 class Base:
     """Defines the representation of a Base Object"""
 
