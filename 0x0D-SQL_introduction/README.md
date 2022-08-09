@@ -13,3 +13,5 @@
 5-full_table.sql: script displays full details of a table
 
 6-list_values.sql: script lists all rows of the table first_table from the database hbtn_0c_0 in your MySQL server
+
+7-insert_value.sql: script inserts a new row in the table first_table (database hbtn_0c_0) in your MySQL server.
