@@ -15,3 +15,6 @@
 6-list_values.sql: script lists all rows of the table first_table from the database hbtn_0c_0 in your MySQL server
 
 7-insert_value.sql: script inserts a new row in the table first_table (database hbtn_0c_0) in your MySQL server.
+
+8-count_89.sql: script displays the number of records with id = 89 in the table first_table of the database hbtn_0c_0 in your MySQL server.
+
