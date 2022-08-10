@@ -14,3 +14,4 @@
 
 6-states.sql: script creates the database hbtn_0d_usa and the table states (in the database hbtn_0d_usa) on your MySQL server.
 
+7-cities.sql: script  creates the database hbtn_0d_usa and the table cities (in the database hbtn_0d_usa) on your MySQL server.
