@@ -7,3 +7,5 @@
 2-create_read_user.sql: script creates the database hbtn_0d_2 and the user user_0d_2, user_0d_2 have SELECT privilege in the database hbtn_0d_2 and the user password set to 'user_0d_2_pwd'
 
 3-force_name.sql: script creates the table force_name on your MySQL server.
+
+4-never_empty.sql: script that creates the table id_not_null on your MySQL server. set id default value to 1.
