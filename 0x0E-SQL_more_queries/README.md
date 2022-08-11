@@ -27,3 +27,5 @@
 12-no_genre.sql: script  lists all shows contained in hbtn_0d_tvshows without a genre linked.
 
 13-count_shows_by_genre.sql: script lists all genres from hbtn_0d_tvshows and displays the number of shows linked to each.
+
+14-my_genres.sql: script lists all genres of the show Dexter.
