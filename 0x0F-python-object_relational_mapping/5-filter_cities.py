@@ -13,9 +13,10 @@ if __name__ == "__main__":
                     (SELECT `id` FROM `states` WHERE `name` = %s)\
                     ORDER BY `cities`.`id`", (name,))
     rows = cursor.fetchall()
-    for i in range(len(rows)):
-        result = rows[i][2]
-        if (i < len(rows)  - 1):
-            result += ', '
-        print(result, end = '')
-    print()
+    if len(rows) > 0:
+        for i in range(len(rows)):
+            result = rows[i][2]
+            if (i < len(rows)  - 1):
+                result += ', '
+            print(result, end = '')
+        print()
