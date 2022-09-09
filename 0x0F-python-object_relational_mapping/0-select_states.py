@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""0-select_states Module"""
+
 import MySQLdb
 import sys
 
