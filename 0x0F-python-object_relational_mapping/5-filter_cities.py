@@ -10,7 +10,8 @@ if __name__ == "__main__":
     db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
     cursor = db.cursor()
     cursor.execute("SELECT * FROM `cities` WHERE `state_id` =\
-                    (SELECT `id` FROM `states` WHERE `name` = %s)", (name,))
+                    (SELECT `id` FROM `states` WHERE `name` = %s)\
+                    ORDER BY `cities`.`id`", (name,))
     rows = cursor.fetchall()
     for i in range(len(rows)):
         result = rows[i][2]
