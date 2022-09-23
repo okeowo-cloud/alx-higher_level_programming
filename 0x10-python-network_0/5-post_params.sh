@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 # Post
 # variable 'email' = 'test@gmail.com'
 # variable 'subject' = 'I will always be here for PLD'
